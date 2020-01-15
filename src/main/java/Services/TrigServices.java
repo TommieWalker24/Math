@@ -2,6 +2,8 @@ package Services;
 
 import Entities.RightTriangle;
 
+import java.util.Vector;
+
 public class TrigServices {
     public static RightTriangle computeHypotenuse(@org.jetbrains.annotations.NotNull RightTriangle givenTri){
         double hypotenuse = Math.hypot(givenTri.getLeg1(),givenTri.getLeg2());
