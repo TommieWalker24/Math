@@ -1,7 +1,7 @@
 package Entities;
 
 public class ImaginaryNumber {
-    double realNumnber;
+    double realNumber;
     String variable;
     int exponenet;
 
@@ -10,7 +10,11 @@ public class ImaginaryNumber {
     }
 
     public double getRealNumber() {
+<<<<<<< HEAD
+        return realNumber;
+=======
         return realNumnber;
+>>>>>>> master
     }
 
     public int getExponenet() {
@@ -21,8 +25,8 @@ public class ImaginaryNumber {
         this.exponenet = exponenet;
     }
 
-    public void setRealNumnber(double realNumnber) {
-        this.realNumnber = realNumnber;
+    public void setRealNumber(double realNumber) {
+        this.realNumber = realNumber;
     }
 
     public void setVariable(String variable) {

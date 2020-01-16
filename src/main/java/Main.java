@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+
+public class Main {
+    public static void main (String args[]){
+
+=======
 import Entities.ImaginaryNumber;
 import Entities.RightTriangle;
 import Services.Algebra;
@@ -54,5 +60,6 @@ public class Main {
             else
                 break;
         }
+>>>>>>> master
     }
 }

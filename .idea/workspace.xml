@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="8990ec42-2208-4f6a-baa0-845bb2c1bd0c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Services/AlgebraTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Services/TrigServicesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Entities/ImaginaryNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Entities/ImaginaryNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Services/Algebra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Services/Algebra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Services/TrigServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Services/TrigServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Entities/ImaginaryNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Entities/ImaginaryNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Services/Algebra.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Services/Algebra.class" afterDir="false" />
+    </list>
+=======
     <list default="true" id="8990ec42-2208-4f6a-baa0-845bb2c1bd0c" name="Default Changelist" comment="" />
+>>>>>>> master
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,6 +27,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -36,12 +53,24 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="Services.TrigServices" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Services" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="Services.TrigServices" />
+      <recent name="Services.Algebra" />
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TrigServicesTest.testComputeArea">
     <configuration name="main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="triangles" />
@@ -49,6 +78,95 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AlgebraTest.testDivision" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="triangles" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Services" />
+      <option name="MAIN_CLASS_NAME" value="Services.AlgebraTest" />
+      <option name="METHOD_NAME" value="testDivision" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlgebraTest.testMultiplication" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="triangles" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Services" />
+      <option name="MAIN_CLASS_NAME" value="Services.AlgebraTest" />
+      <option name="METHOD_NAME" value="testMultiplication" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlgebraTest.testSubtraction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="triangles" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Services" />
+      <option name="MAIN_CLASS_NAME" value="Services.AlgebraTest" />
+      <option name="METHOD_NAME" value="testSubtraction" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrigServicesTest.testComputeArea" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="triangles" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Services" />
+      <option name="MAIN_CLASS_NAME" value="Services.TrigServicesTest" />
+      <option name="METHOD_NAME" value="testComputeArea" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrigServicesTest.testComputeHypotenuse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="triangles" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Services" />
+      <option name="MAIN_CLASS_NAME" value="Services.TrigServicesTest" />
+      <option name="METHOD_NAME" value="testComputeHypotenuse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TrigServicesTest.testComputeArea" />
+        <item itemvalue="JUnit.AlgebraTest.testDivision" />
+        <item itemvalue="JUnit.AlgebraTest.testMultiplication" />
+        <item itemvalue="JUnit.AlgebraTest.testSubtraction" />
+        <item itemvalue="JUnit.TrigServicesTest.testComputeHypotenuse" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -67,7 +185,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a3402f9b-528a-412b-9f72-9cad1e3f37cc" name="Default Changelist" comment="" />
+      <changelist id="8990ec42-2208-4f6a-baa0-845bb2c1bd0c" name="Default Changelist" comment="" />
       <created>1578966726709</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -76,6 +194,8 @@
       <workItem from="1579012525436" duration="5662000" />
       <workItem from="1579039570425" duration="2038000" />
       <workItem from="1579113900535" duration="610000" />
+      <workItem from="1579194826959" duration="486000" />
+      <workItem from="1579205113485" duration="6043000" />
     </task>
     <servers />
   </component>
@@ -83,13 +203,57 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="72" key="#Project_Structure" timestamp="1578966773647">
+    <state x="360" y="71" key="#Arquillian_Containers" timestamp="1579208462206">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="72" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1578966773647" />
-    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578967082811">
+    <state x="360" y="71" key="#Arquillian_Containers/0.0.1536.824@0.0.1536.824" timestamp="1579208462206" />
+    <state x="361" y="72" width="814" height="728" key="#Intentions" timestamp="1579208928958">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="361" y="72" width="814" height="728" key="#Intentions/0.0.1536.824@0.0.1536.824" timestamp="1579208928958" />
+    <state x="361" y="72" key="#Project_Structure" timestamp="1579205232283">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="72" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1579205232283" />
+    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579209099125">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1579209099125" />
+    <state x="538" y="114" key="#com.intellij.ide.util.MemberChooser" timestamp="1579208960179">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="538" y="114" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1579208960179" />
+    <state x="498" y="197" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1579210915094">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+<<<<<<< HEAD
+    <state x="498" y="197" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1579210915094" />
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1579205544831">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1579205544831" />
+    <state width="1493" height="182" key="GridCell.Tab.0.bottom" timestamp="1579211991079">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="182" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579211991079" />
+    <state width="1493" height="182" key="GridCell.Tab.0.center" timestamp="1579211991079">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="182" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1579211991079" />
+    <state width="1493" height="182" key="GridCell.Tab.0.left" timestamp="1579211991079">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="182" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1579211991079" />
+    <state width="1493" height="182" key="GridCell.Tab.0.right" timestamp="1579211991079">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="182" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1579211991079" />
+    <state x="277" y="56" key="SettingsEditor" timestamp="1579208810832">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1579208810832" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1579205114744">
+=======
     <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1578967082811" />
     <state x="538" y="114" key="#com.intellij.ide.util.MemberChooser" timestamp="1579144335275">
       <screen x="0" y="0" width="1536" height="824" />
@@ -132,13 +296,14 @@
     </state>
     <state width="1493" height="198" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1579194744269" />
     <state x="277" y="56" key="SettingsEditor" timestamp="1579017982533">
+>>>>>>> master
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1579017982533" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1579113900760">
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1579205114744" />
+    <state x="540" y="116" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1579210932494">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1579113900760" />
+    <state x="540" y="116" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1579210932494" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
