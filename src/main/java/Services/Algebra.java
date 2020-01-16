@@ -2,125 +2,288 @@ package Services;
 
 import Entities.ImaginaryNumber;
 
-import java.util.Iterator;
+import java.util.ArrayList;
 import java.util.List;
+import java.util.ListIterator;
 
 public class Algebra {
+
+
+
+
     //returns a list of the individual imaginary numbers
-    public List<ImaginaryNumber> addition(List<ImaginaryNumber> imaginaryNumList){
-        Iterator itr = null;
+
+    public static List<ImaginaryNumber> addition(List<ImaginaryNumber> imaginaryNumList){
+
+        ListIterator<ImaginaryNumber> itr = imaginaryNumList.listIterator();
+
         double realNum;
-        ImaginaryNumber result = new ImaginaryNumber();
-        List<ImaginaryNumber> totalResult = null;
+
+        List<ImaginaryNumber> totalResult = new ArrayList<ImaginaryNumber>();
+
         String var;
+
         ImaginaryNumber next;
+
+        ImaginaryNumber imaginaryNumber;
+
         Integer exponent;
-        for (ImaginaryNumber imaginaryNumber: imaginaryNumList){
+
+        while (imaginaryNumList.isEmpty() != true){
+
+            imaginaryNumber = imaginaryNumList.get(0);
+
             var = imaginaryNumber.getVariable();
-            realNum = imaginaryNumber.getRealNumnber();
+
+            realNum = imaginaryNumber.getRealNumber();
+
             exponent = imaginaryNumber.getExponenet();
+
             imaginaryNumList.remove(imaginaryNumber);
 
-            for(ImaginaryNumber numInLoop : imaginaryNumList){
-                next = (ImaginaryNumber) itr.next();
-                if(var.equals(next.getVariable())&& exponent.equals(next.getExponenet())){
-                    realNum += next.getRealNumnber();
-                    imaginaryNumList.remove(next);
-                }
-            }
-            result.setRealNumnber(realNum);
-            result.setVariable(var);
-            totalResult.add(result);
-        }
-        return totalResult;
-    }
-    public List<ImaginaryNumber> subtraction(List<ImaginaryNumber> imaginaryNumList){
-        Iterator itr = null;
-        double realNum;
-        ImaginaryNumber result = new ImaginaryNumber();
-        List<ImaginaryNumber> totalResult = null;
-        String var;
-        ImaginaryNumber next;
-        Integer exponent;
-        for (ImaginaryNumber imaginaryNumber: imaginaryNumList){
-            var = imaginaryNumber.getVariable();
-            realNum = imaginaryNumber.getRealNumnber();
-            exponent = imaginaryNumber.getExponenet();
-            imaginaryNumList.remove(imaginaryNumber);
+            for(int i = 0; i < imaginaryNumList.size(); i++){
 
-            for(ImaginaryNumber numInLoop : imaginaryNumList){
-                next = (ImaginaryNumber) itr.next();
+                next = imaginaryNumList.get(i);
+
                 if(var.equals(next.getVariable())&& exponent.equals(next.getExponenet())){
-                    realNum -= next.getRealNumnber();
+
+                    realNum += next.getRealNumber();
+
                     imaginaryNumList.remove(next);
+
                 }
+
             }
-            result.setRealNumnber(realNum);
+
+            ImaginaryNumber result = new ImaginaryNumber();
+
+            result.setRealNumber(realNum);
+
             result.setVariable(var);
+
             result.setExponenet(exponent);
+
             totalResult.add(result);
+
+            if(imaginaryNumList.isEmpty()){
+
+                break;
+
+            }
+
         }
+
         return totalResult;
+
     }
-    public List<ImaginaryNumber> multiplication(List<ImaginaryNumber> imaginaryNumList){
-        Iterator itr = null;
+
+    public static List<ImaginaryNumber> subtraction(List<ImaginaryNumber> imaginaryNumList){
+
+        ListIterator<ImaginaryNumber> itr = imaginaryNumList.listIterator();
+
         double realNum;
+
         ImaginaryNumber result = new ImaginaryNumber();
-        List<ImaginaryNumber> totalResult = null;
+
+        List<ImaginaryNumber> totalResult = new ArrayList<ImaginaryNumber>();
+
         String var;
+
         ImaginaryNumber next;
+
+        ImaginaryNumber imaginaryNumber;
+
         Integer exponent;
-        for (ImaginaryNumber imaginaryNumber: imaginaryNumList){
+
+        while (imaginaryNumList.isEmpty() != true){
+
+            imaginaryNumber = imaginaryNumList.get(0);
+
             var = imaginaryNumber.getVariable();
-            realNum = imaginaryNumber.getRealNumnber();
+
+            realNum = imaginaryNumber.getRealNumber();
+
             exponent = imaginaryNumber.getExponenet();
+
             imaginaryNumList.remove(imaginaryNumber);
 
-            for(ImaginaryNumber numInLoop : imaginaryNumList){
-                next = (ImaginaryNumber) itr.next();
+
+
+            // for(ImaginaryNumber numInLoop : imaginaryNumList){
+
+            for(int i = 0; i < imaginaryNumList.size(); i++){
+
+                next = imaginaryNumList.get(i);
+
+                if(var.equals(next.getVariable())&& exponent.equals(next.getExponenet())){
+
+                    realNum -= next.getRealNumber();
+
+                    imaginaryNumList.remove(next);
+
+                }
+
+            }
+
+            result.setRealNumber(realNum);
+
+            result.setVariable(var);
+
+            result.setExponenet(exponent);
+
+            totalResult.add(result);
+
+            if(imaginaryNumList.isEmpty()){
+
+                break;
+
+            }
+
+        }
+
+        return totalResult;
+
+    }
+
+    public static List<ImaginaryNumber> multiplication(List<ImaginaryNumber> imaginaryNumList){
+
+        ListIterator<ImaginaryNumber> itr = imaginaryNumList.listIterator();
+
+        double realNum;
+
+        ImaginaryNumber result = new ImaginaryNumber();
+
+        List<ImaginaryNumber> totalResult = new ArrayList<ImaginaryNumber>();
+
+        String var;
+
+        ImaginaryNumber next;
+
+        ImaginaryNumber imaginaryNumber;
+
+        Integer exponent;
+
+        while (imaginaryNumList.isEmpty() != true){
+
+            imaginaryNumber = imaginaryNumList.get(0);
+
+            var = imaginaryNumber.getVariable();
+
+            realNum = imaginaryNumber.getRealNumber();
+
+            exponent = imaginaryNumber.getExponenet();
+
+            imaginaryNumList.remove(imaginaryNumber);
+
+
+
+            // for(ImaginaryNumber numInLoop : imaginaryNumList){
+
+            for(int i = 0; i < imaginaryNumList.size(); i++){
+
+                next = imaginaryNumList.get(i);
+
                 if(var.equals(next.getVariable())){
-                    realNum *= next.getRealNumnber();
+
+                    realNum *= next.getRealNumber();
+
                     exponent += next.getExponenet();
+
                     imaginaryNumList.remove(next);
+
                 }
+
             }
-            result.setRealNumnber(realNum);
+
+            result.setRealNumber(realNum);
+
             result.setVariable(var);
+
             result.setExponenet(exponent);
+
             totalResult.add(result);
 
+            if(imaginaryNumList.isEmpty()){
+
+                break;
+
+            }
+
         }
+
         return totalResult;
+
     }
 
-    public List<ImaginaryNumber> division(List<ImaginaryNumber> imaginaryNumList){
-        Iterator itr = null;
+
+
+    public static List<ImaginaryNumber> division(List<ImaginaryNumber> imaginaryNumList){
+
+        ListIterator<ImaginaryNumber> itr = imaginaryNumList.listIterator();
+
         double realNum;
+
         ImaginaryNumber result = new ImaginaryNumber();
-        List<ImaginaryNumber> totalResult = null;
+
+        List<ImaginaryNumber> totalResult = new ArrayList<ImaginaryNumber>();
+
         String var;
+
         ImaginaryNumber next;
+
+        ImaginaryNumber imaginaryNumber;
+
         Integer exponent;
-        for (ImaginaryNumber imaginaryNumber: imaginaryNumList){
+
+        while (imaginaryNumList.isEmpty() != true){
+
+            imaginaryNumber = imaginaryNumList.get(0);
+
             var = imaginaryNumber.getVariable();
-            realNum = imaginaryNumber.getRealNumnber();
+
+            realNum = imaginaryNumber.getRealNumber();
+
             exponent = imaginaryNumber.getExponenet();
+
             imaginaryNumList.remove(imaginaryNumber);
 
-            for(ImaginaryNumber numInLoop : imaginaryNumList){
-                next = (ImaginaryNumber) itr.next();
+
+
+            // for(ImaginaryNumber numInLoop : imaginaryNumList){
+
+            for(int i = 0; i < imaginaryNumList.size(); i++){
+
+                next = imaginaryNumList.get(i);
+
                 if(var.equals(next.getVariable())){
-                    realNum /= next.getRealNumnber();
+
+                    realNum /= next.getRealNumber();
+
                     exponent -= next.getExponenet();
+
                     imaginaryNumList.remove(next);
+
                 }
+
             }
-            result.setRealNumnber(realNum);
+
+            result.setRealNumber(realNum);
+
             result.setVariable(var);
+
             result.setExponenet(exponent);
+
             totalResult.add(result);
 
+            if(imaginaryNumList.isEmpty()){
+
+                break;
+
+            }
+
         }
+
         return totalResult;
+
     }
 }

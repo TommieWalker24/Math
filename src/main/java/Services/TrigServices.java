@@ -26,7 +26,9 @@ public class TrigServices {
         return givenTri;
     }
     public static RightTriangle computeArea(@org.jetbrains.annotations.NotNull RightTriangle givenTri){
-        double area = ((1/2)*(givenTri.getLeg1()*givenTri.getLeg2()));
+        double one = 1;
+        double two = 2;
+        double area = ((one/two)*(givenTri.getLeg1()*givenTri.getLeg2()));
         givenTri.setArea(area);
         return givenTri;
     }
