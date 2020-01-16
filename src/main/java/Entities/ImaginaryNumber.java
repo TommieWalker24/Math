@@ -9,7 +9,7 @@ public class ImaginaryNumber {
         return variable;
     }
 
-    public double getRealNumnber() {
+    public double getRealNumber() {
         return realNumnber;
     }
 
