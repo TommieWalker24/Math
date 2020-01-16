@@ -2,10 +2,10 @@ package Entities;
 
 public class ImaginaryNumber {
     double realNumnber;
-    char variable;
+    String variable;
     int exponenet;
 
-    public char getVariable() {
+    public String getVariable() {
         return variable;
     }
 
@@ -25,7 +25,7 @@ public class ImaginaryNumber {
         this.realNumnber = realNumnber;
     }
 
-    public void setVariable(char variable) {
+    public void setVariable(String variable) {
         this.variable = variable;
     }
 

@@ -1,19 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a3402f9b-528a-412b-9f72-9cad1e3f37cc" name="Default Changelist" comment="" />
+    <list default="true" id="8c8330cf-b203-4a16-9051-1004e62ab82f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Entities/ImaginaryNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Entities/ImaginaryNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Entities/Vector3d.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Services/Algebra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Services/Algebra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Services/TrigServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Services/TrigServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Entities/RightTriangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Entities/RightTriangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/triangles.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Services/TrigServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Services/TrigServices.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/triangles.iml" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1WRbQrxIAszzRyF6F0heW61CQt5" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
       <list>
-        <option value="Class" />
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -41,6 +69,8 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
+=======
+>>>>>>> a368e0d43e497d463000b7643986a23a588a7767
   <component name="RunManager">
     <configuration name="main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -50,78 +80,36 @@
       </method>
     </configuration>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a3402f9b-528a-412b-9f72-9cad1e3f37cc" name="Default Changelist" comment="" />
-      <created>1578966726709</created>
+      <changelist id="8c8330cf-b203-4a16-9051-1004e62ab82f" name="Default Changelist" comment="" />
+      <created>1579115341423</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
+<<<<<<< HEAD
       <updated>1578966726709</updated>
       <workItem from="1578966734258" duration="2681000" />
       <workItem from="1579012525436" duration="5662000" />
       <workItem from="1579039570425" duration="2038000" />
       <workItem from="1579113900535" duration="610000" />
+=======
+      <updated>1579115341423</updated>
+>>>>>>> a368e0d43e497d463000b7643986a23a588a7767
     </task>
     <servers />
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="361" y="72" key="#Project_Structure" timestamp="1578966773647">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="361" y="72" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1578966773647" />
-    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578967082811">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1578967082811" />
-    <state x="538" y="114" key="#com.intellij.ide.util.MemberChooser" timestamp="1579048721459">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="538" y="114" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1579048721459" />
-    <state x="498" y="197" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1578967073528">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="498" y="197" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1578967073528" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1579020765997">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579020765997" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1579020765997">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1579020765997" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1579020765997">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1579020765997" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1579020765997">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1579020765997" />
-    <state x="277" y="56" key="SettingsEditor" timestamp="1579017982533">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="277" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1579017982533" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1579113900760">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1579113900760" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
