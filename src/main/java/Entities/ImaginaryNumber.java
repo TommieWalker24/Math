@@ -10,7 +10,11 @@ public class ImaginaryNumber {
     }
 
     public double getRealNumber() {
+<<<<<<< HEAD
         return realNumber;
+=======
+        return realNumnber;
+>>>>>>> master
     }
 
     public int getExponenet() {

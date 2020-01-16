@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="8990ec42-2208-4f6a-baa0-845bb2c1bd0c" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/src/test/java/Services/AlgebraTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/Services/TrigServicesTest.java" afterDir="false" />
@@ -14,6 +15,9 @@
       <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Services/Algebra.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Services/Algebra.class" afterDir="false" />
     </list>
+=======
+    <list default="true" id="8990ec42-2208-4f6a-baa0-845bb2c1bd0c" name="Default Changelist" comment="" />
+>>>>>>> master
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -222,6 +226,7 @@
     <state x="498" y="197" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1579210915094">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+<<<<<<< HEAD
     <state x="498" y="197" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1579210915094" />
     <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1579205544831">
       <screen x="0" y="0" width="1536" height="824" />
@@ -248,6 +253,50 @@
     </state>
     <state x="277" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1579208810832" />
     <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1579205114744">
+=======
+    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1578967082811" />
+    <state x="538" y="114" key="#com.intellij.ide.util.MemberChooser" timestamp="1579144335275">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="538" y="114" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1579144335275" />
+    <state x="498" y="197" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1578967073528">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="498" y="197" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1578967073528" />
+    <state width="1493" height="198" key="GridCell.Tab.0.bottom" timestamp="1579194744265">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="198" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579194744265" />
+    <state width="1493" height="198" key="GridCell.Tab.0.center" timestamp="1579194744265">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="198" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1579194744265" />
+    <state width="1493" height="198" key="GridCell.Tab.0.left" timestamp="1579194744265">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="198" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1579194744265" />
+    <state width="1493" height="198" key="GridCell.Tab.0.right" timestamp="1579194744265">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="198" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1579194744265" />
+    <state width="1493" height="198" key="GridCell.Tab.1.bottom" timestamp="1579194744269">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="198" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579194744269" />
+    <state width="1493" height="198" key="GridCell.Tab.1.center" timestamp="1579194744269">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="198" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1579194744269" />
+    <state width="1493" height="198" key="GridCell.Tab.1.left" timestamp="1579194744268">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="198" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1579194744268" />
+    <state width="1493" height="198" key="GridCell.Tab.1.right" timestamp="1579194744269">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="198" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1579194744269" />
+    <state x="277" y="56" key="SettingsEditor" timestamp="1579017982533">
+>>>>>>> master
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1579205114744" />
@@ -255,5 +304,16 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="540" y="116" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1579210932494" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Services/Algebra.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
