@@ -12,22 +12,22 @@ class CalculusServicesTest extends TrigServices {
         ImaginaryNumber imaginaryNumber = new ImaginaryNumber();
         imaginaryNumber.setRealNumber(5);
         imaginaryNumber.setVariable("x");
-        imaginaryNumber.setExponenet(3);
+        imaginaryNumber.setExponent(3);
 
         ImaginaryNumber result = CalculusServices.derivative(imaginaryNumber);
 
         assertEquals(15, result.getRealNumber());
         assertEquals("x", result.getVariable());
-        assertEquals(2, result.getExponenet());
+        assertEquals(2, result.getExponent());
 
         ImaginaryNumber imaginaryNumber2 = new ImaginaryNumber();
         imaginaryNumber.setRealNumber(3);
         imaginaryNumber.setVariable("x");
-        imaginaryNumber.setExponenet(1);
+        imaginaryNumber.setExponent(1);
 
         ImaginaryNumber result2 = CalculusServices.derivative(imaginaryNumber);
         assertEquals(3, result2.getRealNumber());
         assertEquals("no variable", result2.getVariable());
-        assertEquals(0, result2.getExponenet());
+        assertEquals(0, result2.getExponent());
     }
 }

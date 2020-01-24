@@ -22,13 +22,13 @@ public class Algebra {
             imaginaryNumber = imaginaryNumList.get(0);
             var = imaginaryNumber.getVariable();
             realNum = imaginaryNumber.getRealNumber();
-            exponent = imaginaryNumber.getExponenet();
+            exponent = imaginaryNumber.getExponent();
 
             imaginaryNumList.remove(imaginaryNumber);
 
             for(int i = 0; i < imaginaryNumList.size(); i++){
                 next = imaginaryNumList.get(i);
-                if(var.equals(next.getVariable())&& exponent.equals(next.getExponenet())){
+                if(var.equals(next.getVariable())&& exponent.equals(next.getExponent())){
                     realNum += next.getRealNumber();
                     imaginaryNumList.remove(next);
                 }
@@ -37,7 +37,7 @@ public class Algebra {
             ImaginaryNumber result = new ImaginaryNumber();
             result.setRealNumber(realNum);
             result.setVariable(var);
-            result.setExponenet(exponent);
+            result.setExponent(exponent);
             totalResult.add(result);
             if(imaginaryNumList.isEmpty()){
                 break;
@@ -59,13 +59,13 @@ public class Algebra {
             imaginaryNumber = imaginaryNumList.get(0);
             var = imaginaryNumber.getVariable();
             realNum = imaginaryNumber.getRealNumber();
-            exponent = imaginaryNumber.getExponenet();
+            exponent = imaginaryNumber.getExponent();
 
             imaginaryNumList.remove(imaginaryNumber);
 
             for(int i = 0; i < imaginaryNumList.size(); i++){
                 next = imaginaryNumList.get(i);
-                if(var.equals(next.getVariable())&& exponent.equals(next.getExponenet())){
+                if(var.equals(next.getVariable())&& exponent.equals(next.getExponent())){
                     realNum -= next.getRealNumber();
                     imaginaryNumList.remove(next);
                 }
@@ -74,7 +74,7 @@ public class Algebra {
             ImaginaryNumber result = new ImaginaryNumber();
             result.setRealNumber(realNum);
             result.setVariable(var);
-            result.setExponenet(exponent);
+            result.setExponent(exponent);
             totalResult.add(result);
             if(imaginaryNumList.isEmpty()){
                 break;
@@ -97,7 +97,7 @@ public class Algebra {
             imaginaryNumber = imaginaryNumList.get(0);
             var = imaginaryNumber.getVariable();
             realNum = imaginaryNumber.getRealNumber();
-            exponent = imaginaryNumber.getExponenet();
+            exponent = imaginaryNumber.getExponent();
 
             imaginaryNumList.remove(imaginaryNumber);
 
@@ -105,7 +105,7 @@ public class Algebra {
                 next = imaginaryNumList.get(i);
                 if(var.equals(next.getVariable())){
                     realNum *= next.getRealNumber();
-                    exponent += next.getExponenet();
+                    exponent += next.getExponent();
 
                     imaginaryNumList.remove(next);
 
@@ -117,7 +117,7 @@ public class Algebra {
 
             result.setVariable(var);
 
-            result.setExponenet(exponent);
+            result.setExponent(exponent);
 
             totalResult.add(result);
             if(imaginaryNumList.isEmpty()){
@@ -141,14 +141,14 @@ public class Algebra {
             imaginaryNumber = imaginaryNumList.get(0);
             var = imaginaryNumber.getVariable();
             realNum = imaginaryNumber.getRealNumber();
-            exponent = imaginaryNumber.getExponenet();
+            exponent = imaginaryNumber.getExponent();
             imaginaryNumList.remove(imaginaryNumber);
             // for(ImaginaryNumber numInLoop : imaginaryNumList){
             for(int i = 0; i < imaginaryNumList.size(); i++){
                 next = imaginaryNumList.get(i);
                 if(var.equals(next.getVariable())){
                     realNum /= next.getRealNumber();
-                    exponent -= next.getExponenet();
+                    exponent -= next.getExponent();
                     imaginaryNumList.remove(next);
                 }
             }
@@ -157,7 +157,7 @@ public class Algebra {
 
             result.setVariable(var);
 
-            result.setExponenet(exponent);
+            result.setExponent(exponent);
 
             totalResult.add(result);
             if(imaginaryNumList.isEmpty()){
