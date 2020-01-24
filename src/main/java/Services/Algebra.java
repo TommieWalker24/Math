@@ -9,7 +9,6 @@ import java.util.ListIterator;
 public class Algebra {
     //returns a list of the individual imaginary numbers
     public static List<ImaginaryNumber> addition(List<ImaginaryNumber> imaginaryNumList){
-        ListIterator<ImaginaryNumber> itr = imaginaryNumList.listIterator();
         double realNum;
         List<ImaginaryNumber> totalResult = new ArrayList<ImaginaryNumber>();
 
