@@ -4,6 +4,15 @@ public class Fraction {
     int numerator;
     int denominator;
 
+    public Fraction(int numerator, int denominator) {
+        this.numerator = numerator;
+        this.denominator = denominator;
+    }
+
+    public Fraction() {
+
+    }
+
     public void setNumerator(int numerator) {
         this.numerator = numerator;
     }
